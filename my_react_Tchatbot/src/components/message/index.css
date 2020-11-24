@@ -1,0 +1,49 @@
+#messageInput{
+    background-color: rgb(228, 228, 228);
+    bottom: 0;
+    clear: both;
+    position: absolute;
+    max-width: 1000px;
+}
+
+#containerList{
+    padding: 20px 0;
+    margin: 0 .6%;
+    overflow-y: scroll;
+    height: calc(100vh - 100px);
+}
+
+#meteo_card{
+    font-size: smaller;
+    text-align: center;
+    min-width: 280px;
+    background-color: rgb(107, 214, 214);
+}
+
+#meteo_content{
+    font-size: smaller;
+}
+
+#messageList{
+    max-width: 600;
+    position: relative;
+    overflow-y: auto;
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.msgUser{
+    padding: 10px 0;
+    margin: 0 .6%;
+    display: flex;
+    margin-left: auto;
+    order: 2;
+}
+
+.card-right{
+    display: flex;
+}
+
+.avatar-right{
+    right: 0;
+}
